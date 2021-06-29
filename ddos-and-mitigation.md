@@ -28,7 +28,7 @@ DDOS (Distributed Denial-of-Service) 攻击是指攻击者通过利用大量被�
 
 ![错误接入方式](images/wrong-solution.svg)
 
-正确地做法是为业务分配新的 IP 作为防 DDOS 服务的回源 IP，把业务域名指向高防 IP，并把原 IP 从业务服务器解绑。
+正确地做法是为业务分配新的 IP 作为防 DDOS 服务的回源 IP（新分配的 IP 不要在任何地方公布，也不要用任何域名指向它），把业务域名指向高防 IP，并把原 IP 从业务服务器解绑。
 
 ![正确接入方式](images/correct-solution.svg)
 

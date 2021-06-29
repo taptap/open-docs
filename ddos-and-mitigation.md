@@ -30,6 +30,6 @@ DDOS (Distributed Denial-of-Service) 攻击是指攻击者通过利用大量被�
 
 正确地做法是为业务分配新的 IP 作为防 DDOS 服务的回源 IP，把业务域名指向高防 IP，并把原 IP 从业务服务器解绑。
 
-！[正确接入方式](images/correct-solution.svg)
+![正确接入方式](images/correct-solution.svg)
 
 在国内，由于防 DDOS 服务价格较为昂贵，另外流量会经过额外的环节而增加网络延迟，通常只会在受到攻击时，和在开服或上榜等可能被攻击前接入此类服务。在国外可以选用 Cloudflare 等自带 DDOS mitigation 功能的动态 CDN 来同时达到降低网络延迟和常态防 DDOS 的效果。
